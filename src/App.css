@@ -49,3 +49,8 @@ html {
   grid-template-columns: min-content 1fr min-content;
   gap: 22px;
 }
+
+.footerStar {
+  background: rgb(35, 83, 144);
+  background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg);
+}

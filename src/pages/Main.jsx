@@ -37,7 +37,6 @@ const Main = () => {
       <section className="bg-[#fff]">
         <Course />
       </section>
-      <div className="separator"></div>
     </div>
   );
 };
