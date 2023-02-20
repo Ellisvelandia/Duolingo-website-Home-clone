@@ -2,11 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
 }
 
 body {
+  max-width: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font: 500 17px/20px sans-serif;
+  font: 700 var(--web-ui_button-font-size, 15px) /
+      var(--web-ui_button-line-height, 1.2) din-round,
+    sans-serif;
 }
+
+:root {
+  --viewport-height: 100dvh;
+  --web-ui_button-border-radius: 16px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+}
+
+.home {
+  max-height: "1080";
+  width: 100%;
+  min-height: calc(100vh - var(--onetrust-banner-height, 0px));
+  z-index: 1;
+  --onetrust-banner-height: 0px;
+}
+
+.star {
+  background-color: #235390;
+  background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg);
+  width: 100%;
+  max-width: 100%;
+}
+
+.gridCol {
+  grid-template-columns: min-content 1fr min-content;
+  gap: 22px;
+}
+
