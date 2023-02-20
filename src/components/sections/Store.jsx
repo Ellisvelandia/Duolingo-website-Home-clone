@@ -4,11 +4,11 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 const Store = () => {
   return (
-    <div className="flex flex-row items-center m-auto p-10 max-w-6xl">
+    <div className="flex flex-row items-center m-auto md:text-left text-center p-10 max-w-6xl">
       <div className="flex flex-col-reverse md:flex-row  items-center">
         <div>
           <h2
-            className="text-[#3c3c3c] text-lg leading-7 font-bold"
+            className="text-[#3c3c3c] md:text-lg text-2xl leading-7 font-bold"
             style={{ margin: "0 0 25px" }}
           >
             Learn anytime, anywhere.

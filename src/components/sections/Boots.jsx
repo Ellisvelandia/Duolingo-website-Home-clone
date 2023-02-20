@@ -2,11 +2,11 @@ import React from "react";
 
 const Boots = () => {
   return (
-    <div className="flex lg:flex-row flex-col items-center m-auto p-10 max-w-6xl">
+    <div className="flex lg:flex-row flex-col items-center m-auto md:text-left text-center p-10 max-w-6xl">
       <img
         src="https://d35aaqx5ub95lt.cloudfront.net/images/super/8183c77cba99daf1e900fb5f9b0cc671.svg"
         alt="duolingo/multicolor"
-        className="mr-12 flex-grow-0 border-none h-[180px] w-[185px] object-contain bg-no-repeat"
+        className="md:mr-12 md:mb-0 mb-12 flex-grow-0 border-none h-[180px] w-[185px] object-contain bg-no-repeat"
       />
       <div>
         <h2
@@ -22,7 +22,7 @@ const Boots = () => {
         <a
           href="https://en.duolingo.com/super"
           target="_blank"
-          className="text-[#1cb0f6] cursor-pointer text-sm font-bold tracking-wider uppercase hover:text-[#22D3FF]"
+          className="text-[#1cb0f6] cursor-pointer text-sm font-bold md:tracking-wider uppercase hover:text-[#22D3FF]"
           style={{ textDecoration: "none" }}
         >
           Learn more about Super Duolingo

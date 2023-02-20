@@ -2,7 +2,7 @@ import React from "react";
 
 const School = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center m-auto p-10 max-w-6xl">
+    <div className="flex md:flex-row flex-col  md:text-left text-center items-center m-auto p-10 max-w-6xl">
       <div className="h-[162px] md:mb-0 mb-12 min-w-[245px] md:mr-12 bg-no-repeat object-contain flex-grow-0">
         <img
           src="https://d35aaqx5ub95lt.cloudfront.net/images/af5bf404fb8ea1ff96fdc9247a1e36e0.svg"
@@ -23,7 +23,7 @@ const School = () => {
         <a
           href="https://schools.duolingo.com/"
           target="_blank"
-          className="text-[#1cb0f6;] cursor-pointer text-sm tracking-widest uppercase hover:text-[#4BDCFF]"
+          className="text-[#1cb0f6;] cursor-pointer text-sm md:tracking-widest uppercase hover:text-[#4BDCFF]"
         >
           Bring Duolingo to your classroom
         </a>
