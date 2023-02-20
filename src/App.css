@@ -23,6 +23,13 @@ html {
   line-height: 1.15;
 }
 
+.separator {
+  display: flex;
+  max-width: 1065px;
+  border-bottom: 2px solid #e5e5e5;
+  margin: 12px auto;
+}
+
 .home {
   max-height: "1080";
   width: 100%;
@@ -42,4 +49,3 @@ html {
   grid-template-columns: min-content 1fr min-content;
   gap: 22px;
 }
-
